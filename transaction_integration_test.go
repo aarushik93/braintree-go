@@ -5,14 +5,13 @@ package braintree
 import (
 	"context"
 	"fmt"
+	"github.com/aarushik93/braintree-go/testhelpers"
 	"math/rand"
 	"net/http"
 	"reflect"
 	"strings"
 	"testing"
 	"time"
-
-	"github.com/braintree-go/braintree-go/testhelpers"
 )
 
 func randomAmount() *Decimal {

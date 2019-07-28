@@ -5,11 +5,10 @@ package braintree
 import (
 	"context"
 	"fmt"
+	"github.com/aarushik93/braintree-go/testhelpers"
 	"math/rand"
 	"testing"
 	"time"
-
-	"github.com/braintree-go/braintree-go/testhelpers"
 )
 
 func TestPaymentMethod(t *testing.T) {

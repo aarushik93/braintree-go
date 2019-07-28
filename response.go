@@ -4,11 +4,10 @@ import (
 	"compress/gzip"
 	"encoding/xml"
 	"fmt"
+	"github.com/aarushik93/braintree-go/xmlnil"
 	"io/ioutil"
 	"net/http"
 	"strings"
-
-	"github.com/braintree-go/braintree-go/xmlnil"
 )
 
 type Response struct {

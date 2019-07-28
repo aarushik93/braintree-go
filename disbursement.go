@@ -3,8 +3,7 @@ package braintree
 import (
 	"context"
 	"encoding/xml"
-
-	"github.com/braintree-go/braintree-go/date"
+	"github.com/aarushik93/braintree-go/date"
 )
 
 type Disbursement struct {

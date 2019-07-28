@@ -9,9 +9,8 @@ import (
 	"testing"
 
 	"fmt"
+	"github.com/aarushik93/braintree-go/testhelpers"
 	"strings"
-
-	"github.com/braintree-go/braintree-go/testhelpers"
 )
 
 // This test will fail unless you set up your Braintree sandbox account correctly. See TESTING.md for details.

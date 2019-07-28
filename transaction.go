@@ -2,9 +2,8 @@ package braintree
 
 import (
 	"encoding/xml"
+	"github.com/aarushik93/braintree-go/customfields"
 	"time"
-
-	"github.com/braintree-go/braintree-go/customfields"
 )
 
 type TransactionStatus string

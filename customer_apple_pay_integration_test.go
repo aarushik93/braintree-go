@@ -4,10 +4,9 @@ package braintree
 
 import (
 	"context"
+	"github.com/aarushik93/braintree-go/testhelpers"
 	"reflect"
 	"testing"
-
-	"github.com/braintree-go/braintree-go/testhelpers"
 )
 
 func TestCustomerApplePayCard(t *testing.T) {

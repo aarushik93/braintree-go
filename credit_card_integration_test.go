@@ -8,9 +8,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/aarushik93/braintree-go/testhelpers"
 	"time"
-
-	"github.com/braintree-go/braintree-go/testhelpers"
 )
 
 func TestCreditCard(t *testing.T) {

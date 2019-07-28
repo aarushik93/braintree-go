@@ -5,9 +5,8 @@ package braintree
 import (
 	"context"
 	"encoding/xml"
+	"github.com/aarushik93/braintree-go/testhelpers"
 	"testing"
-
-	"github.com/braintree-go/braintree-go/testhelpers"
 )
 
 func TestMerchantAccountCreate(t *testing.T) {
